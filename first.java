@@ -16,11 +16,9 @@ public class first extends Applet
  
 
  
-    String input;
-
+    
     int choice =0;
     int ch=0;
-    int cho=0,chi=0;
 
     public void init ()
     {
@@ -29,8 +27,8 @@ public class first extends Applet
         setBackground (Color.lightGray);
 
 
-        bttn1.addActionListener (this); // Enlarge button
-        bttn2.addActionListener (this); // small button
+        bttn1.addActionListener (this); 
+        bttn2.addActionListener (this); 
        
         add (bttn1);
         add (bttn2);
@@ -76,12 +74,12 @@ public class first extends Applet
         if (evt.getSource () == bttn1)
 {
             choice=choice+1;
-            cho++;
+            
 }
         else if (evt.getSource () == bttn2)
 {
             ch=ch+1;
-            chi++;
+            
 }
         repaint ();
     }
