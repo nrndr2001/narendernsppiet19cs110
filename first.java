@@ -69,14 +69,14 @@ public class first extends Applet
 
  }
     }
-    public void actionPerformed (ActionEvent evt)
+    public void actionPerformed (ActionEvent ae)
     {
-        if (evt.getSource () == bttn1)
+        if (ae.getSource () == bttn1)
 {
             choice=choice+1;
             
 }
-        else if (evt.getSource () == bttn2)
+        else if (ae.getSource () == bttn2)
 {
             ch=ch+1;
             
